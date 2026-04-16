@@ -54,6 +54,6 @@ public class PlaceholdersDemo {
         System.out.println();
 
         //Multiple values in one line
-        System.out.printf("User %s (%c) is %d years old, %.2fm tall, student: %b", name, initial, age, height, student);
+        System.out.printf("modularization.User %s (%c) is %d years old, %.2fm tall, student: %b", name, initial, age, height, student);
     }
 }

@@ -29,7 +29,7 @@ public class LogicalDemo {
         boolean isBlocked = false;
 
         if(!isBlocked) {
-            System.out.println("User active");
+            System.out.println("modularization.User active");
         }
     }
 }

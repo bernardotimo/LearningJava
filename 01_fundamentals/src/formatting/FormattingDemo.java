@@ -15,7 +15,7 @@ public class FormattingDemo {
         System.out.printf("Name: %s, Age: %d%n", name, age);
 
         String message = String.format(
-                "User %s has %d points",
+                "modularization.User %s has %d points",
                 name, points
         );
 
