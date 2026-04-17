@@ -1,9 +1,10 @@
 package data_input;
 import java.util.Scanner;
 
-public class DataInput {
+public class UserInputDemo {
 
     public static void main (String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         // String input (Single word)
@@ -30,14 +31,10 @@ public class DataInput {
         System.out.println("Enter you name initial: ");
         char initialName = scanner.nextLine().charAt(0);
 
-        //Output section
-        System.out.println("First name: " + firstName);
-        System.out.println("Address: " + address);
-        System.out.println("Age: " + age);
-        System.out.println("Height: " + height);
-        System.out.println("user? " + user);
-        System.out.println("Initial: " + initialName);
+        System.out.printf("Your name is %s, your initial is %c, you're %d old and %.2fm tall. You live in %s. " +
+                "Are you an user? %b", firstName, initialName, age, height, address, user);
 
         scanner.close();
+
     }
 }
